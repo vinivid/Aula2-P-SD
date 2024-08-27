@@ -1,7 +1,8 @@
 ## Integrantes do Grupo
 
-Ryan Diniz Pereira - 15590907
 Vinícius Souza Freitas - 15491959
+
+Ryan Diniz Pereira - 15590907
 
 # **Parte 1:**
 
