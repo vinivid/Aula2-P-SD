@@ -1,0 +1,166 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/15491959/Desktop/lllatm
+Ed_llatch
+Z0 w1724780752
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/15491959/Desktop/tr_flfp
+Z4 8C:/Users/15491959/Desktop/tr_flfp/tr_flfp.vhd
+Z5 FC:/Users/15491959/Desktop/tr_flfp/tr_flfp.vhd
+l0
+L4
+VB@8jabX5MTE9ZW9<nEVU12
+!s100 F51>Lz40OCj:kjCjmZeEL2
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1724782646
+!i10b 1
+Z8 !s108 1724782646.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/15491959/Desktop/tr_flfp/tr_flfp.vhd|
+Z10 !s107 C:/Users/15491959/Desktop/tr_flfp/tr_flfp.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehaviour
+R1
+R2
+Z13 DEx4 work 8 d_llatch 0 22 B@8jabX5MTE9ZW9<nEVU12
+l14
+L13
+Z14 VblBNTkR>kZ9BP]`F[e[E?0
+Z15 !s100 9nRPcVQeS]8CLmBQza^OQ2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eneg_edge_flfp
+R0
+R1
+R2
+R3
+R4
+R5
+l0
+L50
+Vc>nEgJ[JNV_4ES[LgzXFl1
+!s100 lRPA`7:JnZZL7ZP:U`6Zf1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Abehaviour
+R1
+R2
+Z16 DEx4 work 13 neg_edge_flfp 0 22 c>nEgJ[JNV_4ES[LgzXFl1
+l60
+L59
+Z17 Vfc[Y6ZoWhe^O3U[`OINO@0
+Z18 !s100 LG?zzCaok?o[ZV8T@0fGj2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Epos_edge_flfp
+R0
+R1
+R2
+R3
+R4
+R5
+l0
+L27
+VEaeh;8LCD2<1U=;[]S<Ql0
+!s100 iHbBW`83iSdeF8GGQ[c[@1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Abehaviour
+R1
+R2
+Z19 DEx4 work 13 pos_edge_flfp 0 22 Eaeh;8LCD2<1U=;[]S<Ql0
+l37
+L36
+Z20 VNl9Z2GRimPXgNEXK9;7MZ2
+Z21 !s100 OR<>^Wi>Xzm3F5;:a:Q6^0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etr_flfp
+R0
+R1
+R2
+R3
+R4
+R5
+l0
+L73
+V>9WMjAn;c00XzihT5mWXc2
+!s100 mP5SF8`^_[VXUh<C79?I61
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Abehaviour
+R1
+R2
+Z22 DEx4 work 7 tr_flfp 0 22 >9WMjAn;c00XzihT5mWXc2
+l114
+L86
+Z23 V?19>]e3?50<=SJ>j2]3`Y1
+Z24 !s100 jeCd:Z]z_B`kmcVdI6aHI0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12

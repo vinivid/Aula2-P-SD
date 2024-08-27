@@ -1,0 +1,15 @@
+C:/Users/15491959/Desktop/tr_flfp/tr_flfp.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/15491959/Desktop/tr_flfp/tr_flfp.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity d_llatch
+-- Compiling architecture Behaviour of d_llatch
+-- Compiling entity pos_edge_flfp
+-- Compiling architecture Behaviour of pos_edge_flfp
+-- Compiling entity neg_edge_flfp
+-- Compiling architecture Behaviour of neg_edge_flfp
+-- Compiling entity tr_flfp
+-- Compiling architecture Behaviour of tr_flfp
+
+} {} {}}

@@ -1,0 +1,71 @@
+# Compile of tr_flfp.vhd failed with 1 errors.
+# Compile of tr_flfp.vhd failed with 10 errors.
+# Compile of tr_flfp.vhd failed with 7 errors.
+# Compile of tr_flfp.vhd failed with 1 errors.
+# Compile of tr_flfp.vhd failed with 1 errors.
+# Compile of tr_flfp.vhd failed with 1 errors.
+# Compile of tr_flfp.vhd failed with 2 errors.
+# Compile of tr_flfp.vhd failed with 5 errors.
+# Compile of tr_flfp.vhd failed with 1 errors.
+# Compile of tr_flfp.vhd failed with 9 errors.
+# Compile of tr_flfp.vhd failed with 1 errors.
+# Compile of tr_flfp.vhd failed with 3 errors.
+# Compile of tr_flfp.vhd failed with 2 errors.
+# Compile of tr_flfp.vhd was successful.
+vsim -gui work.tr_flfp
+# vsim -gui work.tr_flfp 
+# Start time: 14:46:53 on Aug 27,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tr_flfp(behaviour)
+# Loading work.d_llatch(behaviour)
+# Loading work.pos_edge_flfp(behaviour)
+# Loading work.neg_edge_flfp(behaviour)
+add wave -position insertpoint sim:/tr_flfp/*
+force -freeze sim:/tr_flfp/Entry 0 0
+force -freeze sim:/tr_flfp/Clock 1 0
+force -freeze sim:/tr_flfp/Clock 0 0
+force -freeze sim:/tr_flfp/Entry 0 0
+run
+force -freeze sim:/tr_flfp/Entry 1 0
+run
+force -freeze sim:/tr_flfp/Clock 1 0
+run
+force -freeze sim:/tr_flfp/Entry 0 0
+run
+force -freeze sim:/tr_flfp/Entry 1 0
+run
+force -freeze sim:/tr_flfp/Entry 0 0
+run
+force -freeze sim:/tr_flfp/Clock 0 0
+run
+force -freeze sim:/tr_flfp/Entry 1 0
+run
+force -freeze sim:/tr_flfp/Entry 0 0
+run
+force -freeze sim:/tr_flfp/Entry 1 0
+# Compile of tr_flfp.vhd was successful.
+force -freeze sim:/tr_flfp/Entry 0 0
+run
+force -freeze sim:/tr_flfp/Clock 1 0
+run
+force -freeze sim:/tr_flfp/Entry 1 0
+force -freeze sim:/tr_flfp/Entry 1 0
+run
+force -freeze sim:/tr_flfp/Entry 0 0
+force -freeze sim:/tr_flfp/Clock 0 0
+run
+# WARNING: No extended dataflow license exists
+force -freeze sim:/tr_flfp/Clock 1 0
+force -freeze sim:/tr_flfp/Entry 1 0
+run
+force -freeze sim:/tr_flfp/Clock 0 0
+run
+run
+run
+run
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# End time: 16:17:08 on Aug 27,2024, Elapsed time: 1:30:15
+# Errors: 1, Warnings: 2

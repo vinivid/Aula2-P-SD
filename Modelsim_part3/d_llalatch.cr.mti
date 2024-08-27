@@ -1,0 +1,11 @@
+V:/vhdl/d_flip_flop.vhd {1 {vcom -work work -2002 -explicit -stats=none V:/vhdl/d_flip_flop.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity d_llatch
+-- Compiling architecture Behaviour of d_llatch
+-- Compiling entity d_flip_flop
+-- Compiling architecture Behaviour of d_flip_flop
+
+} {} {}}

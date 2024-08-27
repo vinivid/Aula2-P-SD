@@ -1,0 +1,23 @@
+|d_flip_flop
+Clock => d_llatch:slv.Clk
+Clock => d_llatch:mstr.Clk
+Entry => d_llatch:mstr.D
+Res <= d_llatch:slv.Q
+
+
+|d_flip_flop|d_llatch:mstr
+Clk => S_g.IN0
+Clk => R_g.IN0
+D => S_g.IN1
+D => R_g.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|d_flip_flop|d_llatch:slv
+Clk => S_g.IN0
+Clk => R_g.IN0
+D => S_g.IN1
+D => R_g.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,42 @@
+|tr_flfp
+Entry => d_llatch:nmrl_dlatch.D
+Entry => pos_edge_flfp:nmrl_pos_edge.D
+Entry => neg_edge_flfp:nmrl_neg_edge.D
+Clock => d_llatch:nmrl_dlatch.Clk
+Clock => pos_edge_flfp:nmrl_pos_edge.Clk
+Clock => neg_edge_flfp:nmrl_neg_edge.Clk
+Qs <= d_llatch:nmrl_dlatch.Q
+Qscon <= d_llatch:nmrl_dlatch.Qcon
+Qs_1 <= pos_edge_flfp:nmrl_pos_edge.Qa_1
+Qscon_1 <= pos_edge_flfp:nmrl_pos_edge.Qcon_1
+Qs_2 <= neg_edge_flfp:nmrl_neg_edge.Qa_2
+Qscon_2 <= neg_edge_flfp:nmrl_neg_edge.Qcon_2
+
+
+|tr_flfp|d_llatch:nmrl_dlatch
+D => Q$latch.DATAIN
+D => Qcon$latch.DATAIN
+Clk => Qcon$latch.LATCH_ENABLE
+Clk => Q$latch.LATCH_ENABLE
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+Qcon <= Qcon$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|tr_flfp|pos_edge_flfp:nmrl_pos_edge
+D => Qa_1~reg0.DATAIN
+D => Qcon_1~reg0.DATAIN
+Clk => Qcon_1~reg0.CLK
+Clk => Qa_1~reg0.CLK
+Qa_1 <= Qa_1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qcon_1 <= Qcon_1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|tr_flfp|neg_edge_flfp:nmrl_neg_edge
+D => Qa_2~reg0.DATAIN
+D => Qcon_2~reg0.DATAIN
+Clk => Qcon_2~reg0.CLK
+Clk => Qa_2~reg0.CLK
+Qa_2 <= Qa_2~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qcon_2 <= Qcon_2~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
